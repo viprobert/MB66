@@ -27,7 +27,7 @@ export default function RonaldinhoPage() {
               src="/img/logo.png"
               alt="MB66 Logo"
               width={50} 
-              height={25} 
+              height={18} 
               className="h-auto object-contain"
               priority
             />
@@ -52,7 +52,7 @@ export default function RonaldinhoPage() {
         <div className="overflow-hidden shadow-xl w-full">
           {/* Desktop version */}
           <Image
-          src="/img/banner.png"
+          src="/img/banner.webp"
           alt="MB66"
           width={1920}
           height={111}
@@ -145,9 +145,9 @@ export default function RonaldinhoPage() {
             />
       </div>
 
-      <div className="w-1/2"> {/* Right column for the human image */}
+      <div className="w-1/2"> 
         <Image
-          src="/img/content1.png"
+          src="/img/content1.webp"
           alt="group1 desktop"
           width={617} 
           height={659} 
