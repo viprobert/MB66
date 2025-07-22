@@ -11,20 +11,36 @@ export default function RonaldinhoPage() {
       <section>
         <div className="overflow-hidden shadow-xl w-full">
           {/* Desktop version */}
-          <div className="hidden md:block flex items-center justify-center bg-white md:w-[750px] md:h-[111px] mt:5 mx-auto overflow-hidden">
+          <div className="hidden md:flex items-center justify-center bg-white md:h-[111px] mt:5 mx-auto overflow-hidden">
           {/* Desktop version of the combined header image */}
-          <Image
-            src="/img/header1_1.png" 
-            alt="MB66 Ronaldinho Header"
-            width={1920}
-            height={111}
-            className="hidden md:block w-full h-auto object-contain mt-3"
-            priority
-          />
-          </div>
-          <div className="block md:hidden flex items-center justify-center bg-white w-[430px] h-[30px] mx-auto overflow-hidden">
             <Image
               src="/img/logo.png"
+              alt="MB66 Logo"
+              width={219} 
+              height={70} 
+              className="h-auto object-contain"
+              priority
+            />
+            <Image
+              src="/img/logo_1.png"
+              alt="Middle Icons"
+              width={63}
+              height={40}
+              className="mx-5 h-auto object-contain"
+              priority
+            />
+            <Image
+              src="/img/logo_2.png"
+              alt="Ronaldinho Logo"
+              width={247} 
+              height={75} 
+              className="h-auto object-contain" 
+              priority
+            />
+          </div>
+          <div className="md:hidden flex items-center justify-center bg-white h-[30px] mx-auto overflow-hidden">
+            <Image
+              src="/img/logo_mobile.png"
               alt="MB66 Logo"
               width={50} 
               height={18} 
@@ -32,7 +48,7 @@ export default function RonaldinhoPage() {
               priority
             />
             <Image
-              src="/img/logo_1.png"
+              src="/img/logo_1_mobile.png"
               alt="Middle Icons"
               width={14}
               height={12}
@@ -40,7 +56,7 @@ export default function RonaldinhoPage() {
               priority
             />
             <Image
-              src="/img/logo_2.png"
+              src="/img/logo_2_mobile.png"
               alt="Ronaldinho Logo"
               width={55} 
               height={19} 
