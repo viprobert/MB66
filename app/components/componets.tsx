@@ -42,11 +42,11 @@ export default function RonaldinhoPage() {
             />
           </div>
           {/* Mobile version */}
-          <div className="md:hidden flex items-center justify-center bg-white h-[35px] w-100 mx-auto overflow-hidden">
+          <div className="md:hidden flex items-center justify-center bg-white h-[35px] mx-auto overflow-hidden">
             <Image
               src="/img/logo_mobile.png"
               alt="MB66 Logo"
-              width={80} 
+              width={50} 
               height={30} 
               draggable = "false"
               className="h-auto object-contain"
@@ -64,7 +64,7 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/logo_2_mobile.png"
               alt="Ronaldinho Logo"
-              width={80} 
+              width={50} 
               height={30} 
               draggable = "false"
               className="h-auto object-contain" 
@@ -112,8 +112,8 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/button_1_mobile.png" 
               alt="หน้าหลัก MB66 (Mobile)" 
-              width={500}
-              height={500}
+              width={141}
+              height={20}
               draggable = "false"
               className="block md:hidden w-[200px] hover:scale-105 transition-transform duration-300" 
             />
@@ -221,33 +221,9 @@ export default function RonaldinhoPage() {
                 src="/img/c1_t1.png"
                 alt="Content 1 Text1"
                 width={430}
-                height={130}
+                height={600}
                 draggable = "false"
                 className="mb-4 w-full"
-              />
-              <Image
-                src="/img/c1_t2.png"
-                alt="Content 1 Text2"
-                width={430}
-                height={105}
-                draggable = "false"
-                className="mb-4 w-full"
-              />
-              <Image
-                src="/img/c1_t3.png"
-                alt="Content 1 Text3"
-                width={430}
-                height={55}
-                draggable = "false"
-                className="mb-4 w-full"
-              />
-              <Image
-                src="/img/c1_t4.png"
-                alt="Content 1 Text4"
-                width={430}
-                height={152}
-                draggable = "false"
-                className="mb-8 w-full"
               />
             </div>
           </div>
@@ -344,25 +320,9 @@ export default function RonaldinhoPage() {
                 src="/img/c2_t1.png"
                 alt="Content 2 Text1"
                 width={430} 
-                height={160} 
+                height={500} 
                 draggable = "false"
                 className="w-full mb-6"
-              />
-              <Image
-                src="/img/c2_t2.png"
-                alt="Content 2 Text2"
-                width={430} 
-                height={80} 
-                draggable = "false"
-                className="w-full mb-4"
-              />
-              <Image
-                src="/img/c2_t3.png"
-                alt="Content 2 Text3"
-                width={430} 
-                height={130} 
-                draggable = "false"
-                className="w-full"
               />
             </div>
           </div>
@@ -389,10 +349,7 @@ export default function RonaldinhoPage() {
           />
 
           {/* mobile*/}
-          <div className="block md:hidden text-black text-sm mt-8">
-            <h3 className="mb-5 text-[22px] font-weight-[900] font-bold">
-              RONALDO DE ASSIS MOREIRA
-            </h3>
+          <div className="block md:hidden text-black text-sm">
             <Image
               src="/img/c3_t1.png"
               alt="Context3 Text1"
@@ -401,20 +358,12 @@ export default function RonaldinhoPage() {
               draggable = "false"
               className="w-full h-auto block md:hidden mb-4"
             />
-            <Image
-              src="/img/c3_t2.png"
-              alt="Context3 Text2"
-              width={430}
-              height={178}
-              draggable = "false"
-              className="w-full h-auto block md:hidden mb-6"
-            />
           </div>
           <Image
             src="/img/content3_mobile.png"
             alt="Context3 Text3"
             width={430}
-            height={260}
+            height={540}
             draggable = "false"
             className="w-full h-auto block md:hidden"
           />

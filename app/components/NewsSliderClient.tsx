@@ -115,12 +115,12 @@ export default function NewsSection() {
         <div className="block md:hidden">
           {/* Title for Mobile view */}
           <h2
-            className="text-[30px] text-white mb-8 mx-auto flex items-center justify-center"
+            className="text-[30px] text-white font-bold mb-8 mx-auto flex items-center justify-center"
             style={{
-              width: '430px',
+              width: '360px',
               height: '58px',
               backgroundImage: 'url(/img/news_title_mobile.png)',
-              backgroundSize: 'contain',
+              backgroundSize: '100% 100%',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
             }}
