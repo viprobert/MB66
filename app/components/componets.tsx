@@ -175,7 +175,7 @@ export default function RonaldinhoPage() {
                 className="h-auto object-contain"
               />
             </div>
-            <div className="block text-black text-sm"> {/* Mobile text content */}
+            <div className="block text-black text-sm font-family:sarabun"> {/* Mobile text content */}
               {/* 1st para */}
               <p className="text-[18px] font-semibold font-weight-[500]">
                 RONALDINHO ตำนานลูกหนังระดับโลก จับมือเป็น
@@ -380,7 +380,7 @@ export default function RonaldinhoPage() {
             src="/img/content3.png"
             alt="Ronaldinho image desktop"
             width={1290}
-            height={779}
+            height={798}
             className="w-full h-auto hidden md:block"
           />
 
