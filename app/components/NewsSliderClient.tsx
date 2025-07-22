@@ -56,7 +56,7 @@ export default function NewsSection() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true, 
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
   };
 
   const mobileSliderSettings: Settings = {
@@ -66,7 +66,7 @@ export default function NewsSection() {
     slidesToShow: 2, 
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
   };
 
   if (!mounted) {

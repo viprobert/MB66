@@ -315,7 +315,7 @@ export default function RonaldinhoPage() {
             </div>
 
             {/* Text content for mobile */}
-            <div className="text-black text-sm mt-18">
+            <div className="text-black text-sm mt-14">
               <Image
                 src="/img/c2_t1.png"
                 alt="Content 2 Text1"
@@ -434,7 +434,7 @@ export default function RonaldinhoPage() {
 
       {/* Footer */}
       <section className="md:pt-1 ">
-        <div className="overflow-hidden shadow-xl w-full md:mt-12">
+        <div className="overflow-hidden shadow-xl w-full mt-6 md:mt-12">
           <Image
             src="/img/footer.jpg"
             alt="Footer Logo"
