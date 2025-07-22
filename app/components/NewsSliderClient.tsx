@@ -93,7 +93,7 @@ export default function NewsSection() {
             เหตุการณ์สำคัญ
           </h2>
 
-          {/* News items container for PC - Now a Slider */}
+          {/* News items container for PC*/}
           <div className="px-4"> 
             <Slider {...desktopSliderSettings}>
               {newsItems.map((news) => (
@@ -117,7 +117,7 @@ export default function NewsSection() {
           <h2
             className="text-[30px] text-white mb-8 mx-auto flex items-center justify-center"
             style={{
-              width: '300px',
+              width: '430px',
               height: '58px',
               backgroundImage: 'url(/img/news_title_mobile.png)',
               backgroundSize: 'contain',

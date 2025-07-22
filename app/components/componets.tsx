@@ -9,7 +9,7 @@ export default function RonaldinhoPage() {
       
       {/* Banner */}
       <section>
-        <div className="overflow-hidden shadow-xl w-full">
+        <div className="overflow-hidden shadow-xl">
           {/* Desktop version */}
           <div className="hidden md:flex items-center justify-center bg-white md:h-[111px] mt:5 mx-auto overflow-hidden">
           {/* Desktop version of the combined header image */}
@@ -41,12 +41,13 @@ export default function RonaldinhoPage() {
               priority
             />
           </div>
-          <div className="md:hidden flex items-center justify-center bg-white h-[30px] mx-auto overflow-hidden">
+          {/* Mobile version */}
+          <div className="md:hidden flex items-center justify-center bg-white h-[35px] w-100 mx-auto overflow-hidden">
             <Image
               src="/img/logo_mobile.png"
               alt="MB66 Logo"
-              width={50} 
-              height={18} 
+              width={80} 
+              height={30} 
               draggable = "false"
               className="h-auto object-contain"
               priority
@@ -54,8 +55,8 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/logo_1_mobile.png"
               alt="Middle Icons"
-              width={14}
-              height={12}
+              width={40}
+              height={26}
               draggable = "false"
               className="mx-2 h-auto object-contain"
               priority
@@ -63,8 +64,8 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/logo_2_mobile.png"
               alt="Ronaldinho Logo"
-              width={55} 
-              height={19} 
+              width={80} 
+              height={30} 
               draggable = "false"
               className="h-auto object-contain" 
               priority
@@ -111,8 +112,8 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/button_1_mobile.png" 
               alt="หน้าหลัก MB66 (Mobile)" 
-              width={141}
-              height={20}
+              width={500}
+              height={500}
               draggable = "false"
               className="block md:hidden w-[200px] hover:scale-105 transition-transform duration-300" 
             />
