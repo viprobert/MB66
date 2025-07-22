@@ -35,7 +35,7 @@ export default function RonaldinhoPage() {
               src="/img/logo_1.png"
               alt="Middle Icons"
               width={14}
-              height={9}
+              height={12}
               className="mx-2 h-auto object-contain"
               priority
             />
@@ -43,7 +43,7 @@ export default function RonaldinhoPage() {
               src="/img/logo_2.png"
               alt="Ronaldinho Logo"
               width={55} 
-              height={16} 
+              height={19} 
               className="h-auto object-contain" 
               priority
             />
