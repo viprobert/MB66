@@ -57,12 +57,12 @@ export default function RonaldinhoPage() {
       <section className="container mx-auto px-4 md:py-6 py-2">
         <div className="flex justify-center mt-4">
           <Link href="/" replace>
-            <img
+            <Image
               src="/img/button_1.png"
               alt="หน้าหลัก MB66"
               className="hidden md:block w-[422px] md:w-[400px] hover:scale-105 transition-transform duration-300"
             />
-            <img
+            <Image
               src="/img/button_1_mobile.png" 
               alt="หน้าหลัก MB66 (Mobile)" 
               className="block md:hidden w-[200px] hover:scale-105 transition-transform duration-300" 

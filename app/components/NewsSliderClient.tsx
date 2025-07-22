@@ -6,12 +6,12 @@ import Slider, { Settings } from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-// Custom Arrows for the Slider (optional, but good for consistency)
-interface CustomArrowProps {
-  className?: string;
-  style?: React.CSSProperties;
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
-}
+// Custom Arrows for the Slider
+// interface CustomArrowProps {
+//   className?: string;
+//   style?: React.CSSProperties;
+//   onClick?: React.MouseEventHandler<HTMLDivElement>;
+// }
 
 // const NextArrow = (props: CustomArrowProps) => {
 //   const { className, style, onClick } = props;
