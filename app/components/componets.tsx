@@ -309,7 +309,7 @@ export default function RonaldinhoPage() {
                 alt="Content 2 Text2"
                 width={430} 
                 height={80} 
-                className="w-full mb-6"
+                className="w-full mb-4"
               />
               <Image
                 src="/img/c2_t3.png"
@@ -351,7 +351,7 @@ export default function RonaldinhoPage() {
               alt="Context3 Text1"
               width={430}
               height={180}
-              className="w-full h-auto block md:hidden mb-2"
+              className="w-full h-auto block md:hidden mb-4"
             />
             <Image
               src="/img/c3_t2.png"
