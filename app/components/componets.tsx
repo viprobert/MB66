@@ -27,7 +27,7 @@ export default function RonaldinhoPage() {
               src="/img/logo.png"
               alt="MB66 Logo"
               width={50} 
-              height={50} 
+              height={25} 
               className="h-auto object-contain"
               priority
             />
