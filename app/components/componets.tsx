@@ -46,7 +46,7 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/logo_mobile.png"
               alt="MB66 Logo"
-              width={150} 
+              width={80} 
               height={30} 
               draggable = "false"
               className="h-auto object-contain"
@@ -55,7 +55,7 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/logo_1_mobile.png"
               alt="Middle Icons"
-              width={50}
+              width={40}
               height={26}
               draggable = "false"
               className="mx-2 h-auto object-contain"
@@ -64,7 +64,7 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/logo_2_mobile.png"
               alt="Ronaldinho Logo"
-              width={150} 
+              width={80} 
               height={30} 
               draggable = "false"
               className="h-auto object-contain" 
