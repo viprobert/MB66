@@ -86,7 +86,7 @@ export default function RonaldinhoPage() {
           </Image>
           {/* Mobile version */}
           <Image
-            src="/img/banner_mobile.png"
+            src="/img/banner_mobile.webp"
             alt="MB66"
             width={430}
             height={25}
@@ -197,7 +197,7 @@ export default function RonaldinhoPage() {
               className="mb-4 w-full"
             />
             <Image
-              src="/img/content1_mobile.png"
+              src="/img/content1_mobile.webp"
               alt="Content 1 Group"
               width={430}
               height={250}
@@ -218,7 +218,7 @@ export default function RonaldinhoPage() {
              {/* Mobile text content */}
             <div className="block">
               <Image
-                src="/img/c1_t1.png"
+                src="/img/c1_t1.webp"
                 alt="Content 1 Text1"
                 width={430}
                 height={600}
@@ -317,7 +317,7 @@ export default function RonaldinhoPage() {
             {/* Text content for mobile */}
             <div className="text-black text-sm mt-14">
               <Image
-                src="/img/c2_t1.png"
+                src="/img/c2_t1.webp"
                 alt="Content 2 Text1"
                 width={430} 
                 height={500} 
@@ -351,7 +351,7 @@ export default function RonaldinhoPage() {
           {/* mobile*/}
           <div className="block md:hidden text-black text-sm">
             <Image
-              src="/img/c3_t1.png"
+              src="/img/c3_t1.webp"
               alt="Context3 Text1"
               width={430}
               height={180}
