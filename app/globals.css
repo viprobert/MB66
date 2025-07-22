@@ -105,7 +105,8 @@ body {
     }
     .slick-prev,
     .slick-next {
-        width: 30px !important;
+        display: none !important;
+        width: 20px !important;
         height: 30px !important;
         bottom: 10px !important;
     }

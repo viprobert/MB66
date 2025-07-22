@@ -13,27 +13,27 @@ interface CustomArrowProps {
   onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
 
-const NextArrow = (props: CustomArrowProps) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: 'none' }}
-      onClick={onClick}
-    />
-  );
-};
+// const NextArrow = (props: CustomArrowProps) => {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: 'none' }}
+//       onClick={onClick}
+//     />
+//   );
+// };
 
-const PrevArrow = (props: CustomArrowProps) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: 'none' }}
-      onClick={onClick}
-    />
-  );
-};
+// const PrevArrow = (props: CustomArrowProps) => {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: 'none' }}
+//       onClick={onClick}
+//     />
+//   );
+// };
 
 const newsItems = [
   { id: 1, img: '/img/news1.png', imgMobile: '/img/news1_mobile.png', alt: 'news 1' },
@@ -57,8 +57,6 @@ export default function NewsSection() {
     slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 3000,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
   };
 
   const mobileSliderSettings: Settings = {
@@ -67,10 +65,8 @@ export default function NewsSection() {
     speed: 500,
     slidesToShow: 2, 
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
   };
 
   if (!mounted) {
@@ -133,7 +129,7 @@ export default function NewsSection() {
           </h2>
 
           {/* Mobile Carousel / Slider Container */}
-          <div className="px-4"> 
+          <div> 
             <Slider {...mobileSliderSettings}>
               {newsItems.map((news) => (
                 <div key={news.id} className="flex flex-col items-center p-2">
