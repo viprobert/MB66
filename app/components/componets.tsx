@@ -11,24 +11,43 @@ export default function RonaldinhoPage() {
       <section>
         <div className="overflow-hidden shadow-xl w-full">
           {/* Desktop version */}
+          <div className="hidden md:block flex items-center justify-center bg-white md:w-[750px] md:h-[111px] mt:5 mx-auto overflow-hidden">
+          {/* Desktop version of the combined header image */}
           <Image
-          src="/img/header1.png"
-          alt="MB66"
-          width={1920}
-          height={111}
-          className="hidden md:block w-full h-auto object-cover"
-          priority
-          >
-          </Image>
-          {/* Mobile version */}
-          <Image
-            src="/img/header1.png"
-            alt="MB66"
-            width={430}
-            height={25}
-            className="block md:hidden w-full h-auto object-cover"
+            src="/img/header1_1.png" 
+            alt="MB66 Ronaldinho Header"
+            width={1920}
+            height={111}
+            className="hidden md:block w-full h-auto object-contain mt-3"
             priority
           />
+          </div>
+          <div className="block md:hidden flex items-center justify-center bg-white w-[430px] h-[30px] mx-auto overflow-hidden">
+            <Image
+              src="/img/logo.png"
+              alt="MB66 Logo"
+              width={50} 
+              height={13} 
+              className="h-auto object-contain"
+              priority
+            />
+            <Image
+              src="/img/logo_1.png"
+              alt="Middle Icons"
+              width={14}
+              height={9}
+              className="mx-2 h-auto object-contain"
+              priority
+            />
+            <Image
+              src="/img/logo_2.png"
+              alt="Ronaldinho Logo"
+              width={55} 
+              height={16} 
+              className="h-auto object-contain" 
+              priority
+            />
+          </div>
         </div>
         <div className="overflow-hidden shadow-xl w-full">
           {/* Desktop version */}
@@ -101,7 +120,7 @@ export default function RonaldinhoPage() {
         <div className="w-full max-w-6xl mx-auto mb-0">
         {/* Desktop version */}
           <div className="hidden md:block">
-            <h2 className="text-[20px] md:h-[65px] md:text-[30px] text-white font-bold md:mb-8 bg-[url('/img/content1_title.png')] bg-cover bg-center px-8 text-center">
+            <h2 className="text-[35px] md:h-[65px] md:text-[30px] text-white font-bold md:mb-8 bg-[url('/img/content1_title.png')] bg-cover bg-center px-8 text-center">
           RONALDINHO และความร่วมมือในฐานะแบรนด์แอมบาสเดอร์ของ MB66
            </h2>
 
@@ -115,18 +134,6 @@ export default function RonaldinhoPage() {
                 height={386}
                 className="self-start mt-auto"
               />
-              {/* <p className="mb-4">
-                RONALDINHO ตำนานลูกหนังระดับโลก ซีอีโอเป็นแบรนด์แอมบาสเดอร์ของ MB66 อย่างเป็นทางการ ความร่วมมือครั้งสำคัญนี้ได้ถูกถ่ายทอดเป็นกระแสที่ได้รับความสนใจ และถูกพูดถึงอย่างล้นหลามในโลกออนไลน์
-              </p>
-              <p className="mb-4">
-                สัญญาความร่วมมือระหว่างแพลตฟอร์มชั้นนำอันดับของเอเชียอย่าง MB66 กับซูเปอร์สตาร์ลูกหนัง RONALDINHO จะต้องสร้างความประทับใจอย่างมากแน่นอน
-              </p>
-              <p className="mb-4">
-                นี่คืออีกก้าวสำคัญที่แสดงให้เห็นถึงมาตรฐานระดับสูงของ MB66 ในตลาดการเดิมพันออนไลน์
-              </p>
-              <p>
-                ด้วยชื่อเสียงและอิทธิพลของนักเตะคนนี้ MB66 ได้รับการยอมรับอย่างกว้างขวางจากเหล่าคนดังและผู้เชี่ยวชาญพันธนาการวงการ สิ่งนี้สะท้อนถึงความมุ่งมั่นของแบรนด์ในการลงทุนอย่างจริงจัง พร้อมให้คำมั่นว่าจะมอบประสบการณ์ที่ดีที่สุดให้กับสมาชิกทุกคน
-              </p> */}
               </div>
             <Image
               src="/img/content1_sign.png"
@@ -175,62 +182,37 @@ export default function RonaldinhoPage() {
                 className="h-auto object-contain"
               />
             </div>
-            <div className="block text-black text-sm font-family:sarabun"> {/* Mobile text content */}
-              {/* 1st para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                RONALDINHO ตำนานลูกหนังระดับโลก จับมือเป็น
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                แบรนด์แอมบาสเดอร์ของ MB66 อย่างเป็นทางการ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ความร่วมมือครั้งสำคัญนี้กำลังกลายเป็นกระแสที่ได้
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                รับความสนใจและถูกพูดถึงอย่างล้นหลามในโลก
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                ออนไลน์
-              </p>
-              {/* 2nd para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                สัญญาความร่วมมือระหว่างแพลตฟอร์มบันเทิงชั้น
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                นำของเอเชียอย่าง MB66 กับซูเปอร์สตาร์ลูกหนัง
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                RONALDINHO
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                จะต้องสร้างความประทับใจอย่างมากแน่นอน
-              </p>
-              {/* 3rd para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                นี่ถือเป็นอีกก้าวสำคัญที่แสดงให้เห็นถึงมาตรฐาน
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                ระดับสูงของ MB66 ในตลาดการเดิมพันออนไลน
-              </p>
-              {/* 4th para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ด้วยชื่อเสียงและอิทธิพลของนักเตะคนนี้ MB66 ได้
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                รับการยอมรับอย่างกว้างขวางจากเหล่าคนดังและผู้
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                เชี่ยวชาญที่มีบทบาทในวงการสิ่งนี้สะท้อนถึงความ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                มุ่งมั่นของแบรนด์ในการลงทุนอย่างจริงจัง พร้อมให
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                คำมั่นว่าจะมอบประสบการณ์ที่ดีที่สุดให้กับสมาชิก
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                ทุกคน
-              </p>
+
+             {/* Mobile text content */}
+            <div className="block">
+              <Image
+                src="/img/c1_t1.png"
+                alt="Content 1 Text1"
+                width={430}
+                height={130}
+                className="mb-4 w-full"
+              />
+              <Image
+                src="/img/c1_t2.png"
+                alt="Content 1 Text2"
+                width={430}
+                height={105}
+                className="mb-4 w-full"
+              />
+              <Image
+                src="/img/c1_t3.png"
+                alt="Content 1 Text3"
+                width={430}
+                height={55}
+                className="mb-4 w-full"
+              />
+              <Image
+                src="/img/c1_t4.png"
+                alt="Content 1 Text4"
+                width={430}
+                height={152}
+                className="mb-8 w-full"
+              />
             </div>
           </div>
         </div>
@@ -314,61 +296,35 @@ export default function RonaldinhoPage() {
             </div>
 
             {/* Text content for mobile */}
-            <div className="text-black text-sm mt-18"> 
-              {/* 1sr para */}
-               <p className="text-[18px] font-semibold font-weight-[500]">
-                การที่ RONALDINHO เข้าร่วมเป็นแบรนด์แอมบาส
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                เดอร์ให้กับ MB66 ถือเป็นหนึ่งในเหตุการณ์ที่น่าจับ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ตามองมากที่สุดในช่วงที่ผ่านมาสัญญาความร่วมมือ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ระหว่างบริษัทบันเทิงชั้นนำแห่งเอเชียอย่าง MB66
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                กับซูเปอร์สตาร์ลูกหนัง RONALDINHO รับรองได้ว่า
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                จะนำมาซึ่งความน่าประทับใจมากมาย
-              </p>
-
-              {/* 2nd para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                นี่ถือเป็นอีกหนึ่งก้าวสำคัญที่แสดงถึงความมุ่งมั่นและ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                และระดับชั้นของแบรนด์ MB66 ในตลาดการเดิมพัน
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                ออนไลน์
-              </p>
-
-              {/* 3rd para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ด้วยชื่อเสียงและความน่าเชื่อถือในระดับโลกของ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                RONALDINHOการร่วมงานครั้งนี้ได้รับการยอมรับ
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                อย่างสูงจากทั้งคนดังและผู้เชี่ยวชาญในวงการซึ่ง
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ตอกย้ำถึงการลงทุนอย่างจริงจังของ MB66
-              </p>
-              <p className="md-5 text-[18px] font-semibold font-weight-[500]">
-                ในการมอบประสบการณ์ที่ดีที่สุดให้แก่สมาชิกทุกคน
-              </p>
+            <div className="text-black text-sm mt-18">
+              <Image
+                src="/img/c2_t1.png"
+                alt="Content 2 Text1"
+                width={430} 
+                height={160} 
+                className="w-full mb-6"
+              />
+              <Image
+                src="/img/c2_t2.png"
+                alt="Content 2 Text2"
+                width={430} 
+                height={80} 
+                className="w-full mb-6"
+              />
+              <Image
+                src="/img/c2_t3.png"
+                alt="Content 2 Text3"
+                width={430} 
+                height={130} 
+                className="w-full"
+              />
             </div>
           </div>
         </div>
 
         {/* Block 3 */}
         <div className="w-full max-w-6xl mx-auto md:mb-6">
-          {/* สำหรับ desktop */}
+          {/* desktop */}
           <Image
             src="/img/content3_text.png"
             alt="Ronaldinho info desktop"
@@ -384,60 +340,30 @@ export default function RonaldinhoPage() {
             className="w-full h-auto hidden md:block"
           />
 
-          {/* สำหรับ mobile (ต้องมีไฟล์ภาพขนาดเล็ก) */}
-          <div className="block md:hidden text-black text-sm mt-8"> {/* Mobile text content */}
-            <h3 className="mb-5 text-[19px] font-weight-[900] font-bold">
+          {/* mobile*/}
+
+          <div className="block md:hidden text-black text-sm mt-8">
+            <h3 className="mb-5 text-[22px] font-weight-[900] font-bold">
               RONALDO DE ASSIS MOREIRA
             </h3>
-            {/* 1st para */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                (เกิดเมื่อวันที่ 21 มีนาคม 1980 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                ที่เมืองปอร์โตอาเลเกร ประเทศบราซิล) 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                มักเป็นที่รู้จักในชื่อ RONALDINHO GAÚCHO  
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                หรือเรียกสั้น ๆ ว่า RONALDINHO
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                (ออกเสียงในภาษาโปรตุเกสว่า [ʁonawˈdʒĩɲu]) 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                เป็นอดีตนักฟุตบอลอาชีพชาวบราซิลโดยเล่นใน 
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                ตำแหน่งกองกลางตัวรุกและปีก 
-              </p>
-              {/* 2nd para  */}
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                เขาไม่เพียงแค่เป็นนักเตะฝีเท้ายอดเยี่ยมระดับโลก 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                เท่านั้น แต่ยังเป็น ตำนานลูกหนังบราซิล ที่มีชื่อเสียง 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                จากลีลาการเลี้ยงบอลอันน่าตื่นตาตื่นใจ 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                RONALDINHO มีฐานแฟนคลับจำนวนมากทั่วโลก 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                นอกจากนี้ เขายังเป็นคนที่มีบุคลิก ขี้เล่น เป็นมิตร 
-              </p>
-              <p className="text-[18px] font-semibold font-weight-[500]">
-                 และเข้าถึงง่าย ทำให้ทุกครั้งที่ได้พบแฟน ๆ 
-              </p>
-              <p className="mb-5 text-[18px] font-semibold font-weight-[500]">
-                เขามักจะสร้างช่วงเวลาแห่งความประทับใจเสมอ 
-              </p>
+            <Image
+              src="/img/c3_t1.png"
+              alt="Context3 Text1"
+              width={430}
+              height={180}
+              className="w-full h-auto block md:hidden mb-2"
+            />
+            <Image
+              src="/img/c3_t2.png"
+              alt="Context3 Text2"
+              width={430}
+              height={178}
+              className="w-full h-auto block md:hidden mb-6"
+            />
           </div>
-
           <Image
             src="/img/content3_mobile.png"
-            alt="Ronaldinho image mobile"
+            alt="Context3 Text3"
             width={430}
             height={260}
             className="w-full h-auto block md:hidden"
