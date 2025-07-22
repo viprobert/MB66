@@ -60,11 +60,15 @@ export default function RonaldinhoPage() {
             <Image
               src="/img/button_1.png"
               alt="หน้าหลัก MB66"
+              width={422}
+              height={58}
               className="hidden md:block w-[422px] md:w-[400px] hover:scale-105 transition-transform duration-300"
             />
             <Image
               src="/img/button_1_mobile.png" 
               alt="หน้าหลัก MB66 (Mobile)" 
+              width={141}
+              height={20}
               className="block md:hidden w-[200px] hover:scale-105 transition-transform duration-300" 
             />
           </Link>

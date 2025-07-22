@@ -101,7 +101,7 @@ body {
         margin: 0 5px !important; 
     }
     .slick-list {
-        margin: 0 -5px !important;
+        margin: 0 !important;
     }
     .slick-prev,
     .slick-next {
@@ -109,10 +109,6 @@ body {
         width: 20px !important;
         height: 30px !important;
         bottom: 10px !important;
-    }
-
-    .slick-slide > div {
-        margin: 0 5px;
     }
 
     .cup-item h3 {
