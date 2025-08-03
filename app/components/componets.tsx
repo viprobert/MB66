@@ -214,7 +214,7 @@ export default function RonaldinhoPage() {
               width={430}
               height={250}
               draggable = "false"
-              className="w-full mb-4"
+              className="w-full mb-4 px-2"
             />
             <div className="flex justify-center items-center mb-6 w-full h-[150px] px-4">
               <Image
@@ -386,7 +386,7 @@ export default function RonaldinhoPage() {
             width={430}
             height={540}
             draggable = "false"
-            className="w-full h-auto block md:hidden"
+            className="w-full h-auto block md:hidden px-2"
           />
         </div>
       </section>
