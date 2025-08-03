@@ -199,7 +199,7 @@ export default function RonaldinhoPage() {
             </div>
           </div>
           {/* Mobile version */}
-          <div className="block md:hidden">
+          <div className="block md:hidden px-2">
             <Image
               src="/img/content1_title_mobile.png"
               alt="Content 1 Title"
@@ -297,7 +297,7 @@ export default function RonaldinhoPage() {
           </div>
 
           {/* Mobile version */}
-          <div className="block md:hidden">
+          <div className="block md:hidden px-2">
             {/* Mobile Title */}
             <Image
               src="/img/content2_title_mobile.png"
@@ -370,7 +370,7 @@ export default function RonaldinhoPage() {
           />
 
           {/* mobile*/}
-          <div className="block md:hidden text-black text-sm">
+          <div className="block md:hidden text-black text-sm px-2">
             <Image
               src="/img/c3_t1.webp"
               alt="Context3 Text1"
