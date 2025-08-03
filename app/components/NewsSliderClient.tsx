@@ -6,35 +6,6 @@ import Slider, { Settings } from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-// Custom Arrows for the Slider
-// interface CustomArrowProps {
-//   className?: string;
-//   style?: React.CSSProperties;
-//   onClick?: React.MouseEventHandler<HTMLDivElement>;
-// }
-
-// const NextArrow = (props: CustomArrowProps) => {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: 'none' }}
-//       onClick={onClick}
-//     />
-//   );
-// };
-
-// const PrevArrow = (props: CustomArrowProps) => {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: 'none' }}
-//       onClick={onClick}
-//     />
-//   );
-// };
-
 const newsItems = [
   { id: 1, img: '/img/news1.png', imgMobile: '/img/news1_mobile.png', alt: 'news 1' },
   { id: 2, img: '/img/news2.png', imgMobile: '/img/news2_mobile.png', alt: 'news 2' },
@@ -78,9 +49,8 @@ export default function NewsSection() {
       <div className="w-full max-w-6xl mx-auto mb-0 md:pt-16">
         {/* Desktop version */}
         <div className="hidden md:block">
-          {/* Title for PC view */}
           <h2
-            className="text-[30px] text-white font-bold mb-14 mx-auto flex items-center justify-center"
+            className="text-[40px] text-white font-bold mb-14 mx-auto flex items-center justify-center"
             style={{
               maxWidth: '716px',
               height: '108px',
@@ -113,7 +83,6 @@ export default function NewsSection() {
 
         {/* Mobile version */}
         <div className="block md:hidden">
-          {/* Title for Mobile view */}
           <h2
             className="text-[30px] text-white font-bold mb-8 mx-auto flex items-center justify-center"
             style={{
@@ -128,11 +97,11 @@ export default function NewsSection() {
             เหตุการณ์สำคัญ
           </h2>
 
-          {/* Mobile Carousel / Slider Container */}
+          {/* Mobile Container */}
           <div> 
             <Slider {...mobileSliderSettings}>
               {newsItems.map((news) => (
-                <div key={news.id} className="flex flex-col items-center p-2">
+                <div key={news.id} className="flex flex-col items-center p-1">
                   <Image
                     src={news.imgMobile}
                     alt={news.alt}

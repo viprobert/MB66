@@ -18,7 +18,7 @@ export default function RonaldinhoPage() {
               alt="MB66 Logo"
               width={219} 
               height={70} 
-              className="h-auto object-contain"
+              className="h-auto object-contain  w-auto h-auto"
               draggable = "false"
               priority
             />
@@ -27,7 +27,7 @@ export default function RonaldinhoPage() {
               alt="Middle Icons"
               width={63}
               height={40}
-              className="mx-5 h-auto object-contain"
+              className="mx-5 h-auto object-contain w-auto h-auto"
               draggable = "false"
               priority
             />
@@ -36,7 +36,7 @@ export default function RonaldinhoPage() {
               alt="Ronaldinho Logo"
               width={247} 
               height={75} 
-              className="h-auto object-contain"
+              className="h-auto object-contain  w-auto h-auto"
               draggable = "false" 
               priority
             />
@@ -45,7 +45,7 @@ export default function RonaldinhoPage() {
           <div className="md:hidden flex items-center justify-center bg-white h-[35px] mx-auto overflow-hidden">
             <Image
               src="/img/logo_mobile.png"
-              alt="MB66 Logo"
+              alt="MB66 Logo" 
               width={80} 
               height={30} 
               draggable = "false"
@@ -75,13 +75,13 @@ export default function RonaldinhoPage() {
         <div className="overflow-hidden shadow-xl w-full">
           {/* Desktop version */}
           <Image
-          src="/img/banner.webp"
-          alt="MB66"
-          width={1920}
-          height={111}
-          draggable = "false"
-          className="hidden md:block w-full h-auto object-cover"
-          priority
+            src="/img/banner.webp"
+            alt="MB66"
+            width={1920}
+            height={111}
+            draggable = "false"
+            className="hidden md:block w-full h-auto object-cover"
+            priority
           >
           </Image>
           {/* Mobile version */}
@@ -122,9 +122,8 @@ export default function RonaldinhoPage() {
       </section>
 
       {/* Video */}
-      <section className="container mx-auto px-4 py-10">
-        <div className="relative w-full max-w-[854px] aspect-video mx-auto mt-[-40px] md:mt-0">
-
+      <section className="container mx-auto px-4 pt-2 py-10">
+        <div className="relative w-full max-w-[854px] aspect-video mx-auto md:mt-0">
           <video
             className="w-full h-full object-cover rounded-[20px] md:rounded-[40px] border-[1px] md:border-[3px] border-red-500"
             controls
@@ -134,57 +133,70 @@ export default function RonaldinhoPage() {
             muted
           >
             <source 
-            src="https://res.cloudinary.com/di3f6hlie/video/upload/MB66_d8hhab.mp4" 
+            src="https://ui-work.b-cdn.net/videos/MB66.mp4" 
             type="video/mp4" />
-            Your browser does not support the video tag.
+            <p>Your browser does not support the video tag.</p>
           </video>
         </div>
       </section>
 
       {/* Content Blocks */}
-      <section className="container mx-auto px-2 md:px-4 space-y-12">
+      <section className="container mx-auto space-y-12 max-w-[1200px]">
         {/* Block 1 */}
-        <div className="w-full max-w-6xl mx-auto mb-0">
+        <div className="w-full mb-0">
         {/* Desktop version */}
           <div className="hidden md:block">
-            <h2 className="text-[35px] md:h-[65px] md:text-[30px] text-white font-bold md:mb-8 bg-[url('/img/content1_title.png')] bg-cover bg-center px-8 text-center" >
-          RONALDINHO และความร่วมมือในฐานะแบรนด์แอมบาสเดอร์ของ MB66
-           </h2>
+          <div className="bg-[url('/img/content1_title.png')] w-full h-[68px] bg-center text-center bg-cover flex justify-center md:mb-6">
+            <span className="text-[35px] md:h-[65px] md:text-[30px] text-white font-bold pt-2" >
+              RONALDINHO และความร่วมมือในฐานะแบรนด์แอมบาสเดอร์ของ MB66
+            </span>
+          </div>
+            
+            <div className="flex justify-between items-start gap-2 md:mb-12"> 
+              <div className="w-[50%] flex flex-col"> 
+                <div className="text-black text-base justify-center items-center h-[320px] md:text-lg md:text-[16px]"> 
+                  <Image
+                    src="/img/content1_text.png"
+                    alt="content1"
+                    width={648} 
+                    height={386}
+                    draggable = "false"
+                    className="self-start mt-10"
+                  />
+                  {/* <span className="text-[19px] font-semibold">
+                    RONALDINHO ตำนานลูกหนังระดับโลก จับมือเป็นแบรนด์แอมบาสเดอร์ของ MB66 อย่างเป็นทางการ ความร่วมมือครั้งสำคัญนี้กำลังกลายเป็นกระแสที่ได้รับความสนใจและถูกพูดถึงอย่างล้นหลามในโลกออนไลน์
+                  </span>
+                  <p className="text-[19px] font-semibold pt-4">
+                    สัญญาความร่วมมือระหว่างแพลตฟอร์มบันเทิงชั้นนำของเอเชียอย่าง MB66 กับซูเปอร์สตาร์ลูกหนัง RONALDINHO จะต้องสร้างความประทับใจอย่างมากแน่นอน
+                  </p>
+                  <p className="text-[19px] font-semibold pt-4">นี่ถือเป็นอีกก้าวสำคัญที่แสดงให้เห็นถึงมาตรฐานระดับสูงของ MB66 </p>
+                  <p className="text-[19px] font-semibold ">ในตลาดการเดิมพันออนไลน์</p>
+                  <p className="text-[19px] font-semibold pt-6">ด้วยชื่อเสียงและอิทธิพลของนักเตะคนนี้ MB66 ได้รับการยอมรับอย่างกว้างขวางจากเหล่าคนดังและผู้เชี่ยวชาญที่มีบทบาทในวงการ สิ่งนี้สะท้อนถึงความมุ่งมั่นของแบรนด์ในการลงทุนอย่างจริงจัง พร้อมให้คำมั่นว่าจะมอบประสบการณ์ที่ดีที่สุดให้กับสมาชิกทุกคน</p> */}
+                </div>
+                <div className="flex justify-center items-center w-full h-[150px] px-4">
+                  <Image
+                    src="/img/content1_sign.png"
+                    alt="sign"
+                    width={375} 
+                    height={100}
+                    max-height={300} 
+                    draggable = "false"
+                    className="center mt-auto h-auto" 
+                  />
+                </div>
+              </div>
 
-          <div className="flex justify-between items-start gap-8"> 
-            <div className="w-1/2 flex flex-col"> 
-              <div className="text-black text-base md:text-lg md:text-[16px]"> 
+              <div className="w-1/2"> 
                 <Image
-                  src="/img/content1_text.png"
-                  alt="content1"
-                  width={648} 
-                  height={386}
+                  src="/img/content1.webp"
+                  alt="group1 desktop"
+                  width={617} 
+                  height={659} 
                   draggable = "false"
-                  className="self-start mt-auto"
+                  className="w-full h-auto object-contain"
                 />
               </div>
-              <Image
-                src="/img/content1_sign.png"
-                alt="sign"
-                width={375} 
-                height={280}
-                max-height={300} 
-                draggable = "false"
-                className="self-start mt-auto" 
-              />
             </div>
-
-            <div className="w-1/2"> 
-              <Image
-                src="/img/content1.webp"
-                alt="group1 desktop"
-                width={617} 
-                height={659} 
-                draggable = "false"
-                className="w-full h-auto object-contain"
-              />
-            </div>
-          </div>
           </div>
           {/* Mobile version */}
           <div className="block md:hidden">
@@ -230,9 +242,9 @@ export default function RonaldinhoPage() {
         </div>
 
         {/* Block 2 */}
-        <div className="w-full max-w-6xl mx-auto mb-0 relative overflow-hidden">
+        <div className="w-full mx-auto mb-0 relative overflow-hidden">
           {/* Desktop version */}
-          <div className="hidden md:block md:h-[74vh]">
+          <div className="hidden md:block mid-name">
             {/* Title */}
             <Image
               src="/img/content2_title.png"
@@ -243,10 +255,10 @@ export default function RonaldinhoPage() {
               className="w-full mb-14" 
             />
 
-            <div className="flex justify-between items-start gap-8 relative">
+            <div className="flex justify-between h-[500px] items-start relative">
               <div className="w-1/2 flex justify-start items-center relative z-10">
                 <Image
-                  src="/img/content2.png"
+                  src="/img/content2.webp"
                   alt="Content 2 Group"
                   width={600} 
                   height={700}
@@ -264,18 +276,21 @@ export default function RonaldinhoPage() {
                   draggable = "false"
                   className="w-full h-auto object-contain"
                 />
+                {/* <p className="text-[19px] font-semibold pt-4 leading-normal text-black">การที่ RONALDINHO เข้าร่วมเป็นแบรนด์แอมบาสเดอร์ให้กับ MB66 ถือเป็นหนึ่งในเหตุการณ์ที่น่าจับตามองมากที่สุดในช่วงที่ผ่านมาสัญญาความร่วมมือระหว่างบริษัทบันเทิงชั้นนำแห่งเอเชียอย่าง MB66 กับซูเปอร์สตาร์ลูกหนัง RONALDINHO รับรองได้ว่าจะนำมาซึ่งความน่าประทับใจมากมาย</p>
+                <p className="text-[19px] font-semibold pt-4 leading-normal text-black">นี่ถือเป็นอีกหนึ่งก้าวสำคัญที่แสดงถึงความมุ่งมั่นและระดับชั้นของแบรนด์ MB66 ในตลาดการเดิมพันออนไลน์</p>
+                <p className="text-[19px] font-semibold pt-4 leading-normal text-black">ด้วยชื่อเสียงและความน่าเชื่อถือในระดับโลกของ RONALDINHO การร่วมงานครั้งนี้ได้รับการยอมรับอย่างสูงจากทั้งคนดังและผู้เชี่ยวชาญในวงการซึ่งตอกย้ำถึงการลงทุนอย่างจริงจังของ MB66 ในการมอบประสบการณ์ที่ดีที่สุดให้แก่สมาชิกทุกคน</p> */}
               </div>
 
               {/* Overlapping bottom image for desktop */}
-              <div className="max-w-[1152px]">
+              <div className="max-w-[1000px]">
                 <Image
                   src="/img/content2_bottom.png"
                   alt="Content 2 Name"
-                  width={1152} 
+                  width={1050} 
                   height={300} 
                   draggable = "false"
-                  className="absolute bottom-0 left-0 w-full z-0" 
-                  style={{ transform: 'translateY(64%)' }} 
+                  className="absolute bottom-0 left-0 h-auto z-0" 
+                  style={{ transform: 'translateY(55%)', paddingLeft: '5%' }} 
                 />
               </div>
             </div>
@@ -295,7 +310,7 @@ export default function RonaldinhoPage() {
 
             <div className="relative"> 
               <Image
-                src="/img/content2_mobile.png"
+                src="/img/content2_mobile.webp"
                 alt="Content 2 Group mobile"
                 width={430} 
                 height={300} 
@@ -339,8 +354,14 @@ export default function RonaldinhoPage() {
             draggable = "false"
             className="w-full h-auto hidden md:block md:mb-6"
           />
+          {/* <div className="w-full hidden md:block">
+            <h2 className="text-[28px] font-semibold mt-6 text-black">RONALDO DE ASSIS MOREIRA</h2>
+            <p className="text-[18px] font-semibold mt-4 text-black">(เกิดเมื่อวันที่ 21 มีนาคม 1980 ที่เมืองปอร์โตอาเลเกร ประเทศบราซิล) มักเป็นที่รู้จักในชื่อ RONALDINHO GAÚCHO หรือเรียกสั้น ๆ ว่า RONALDINHO</p>
+            <p className="text-[18px] font-semibold mt-1 text-black">(ออกเสียงในภาษาโปรตุเกสว่า [ʁonawˈdʒĩɲu]) เป็นอดีตนักฟุตบอลอาชีพชาวบราซิล โดยเล่นในตำแหน่งกองกลางตัวรุกและปีก</p>
+            <p className="text-[18px] font-semibold mt-4 mb-6 leading-relaxed text-black">เขาไม่เพียงแค่เป็นนักเตะฝีเท้ายอดเยี่ยมระดับโลกเท่านั้น แต่ยังเป็น ตำนานลูกหนังบราซิล ที่มีชื่อเสียงจากลีลาการเลี้ยงบอลอันน่าตื่นตาตื่นใจ RONALDINHO มีฐานแฟนคลับจำนวนมากทั่วโลก นอกจากนี้ เขายังเป็นคนที่มีบุคลิก ขี้เล่น เป็นมิตร และเข้าถึงง่าย ทำให้ทุกครั้งที่ได้พบแฟน ๆ เขามักจะสร้างช่วงเวลาแห่งความประทับใจเสมอ</p>
+          </div> */}
           <Image
-            src="/img/content3.png"
+            src="/img/content3.webp"
             alt="Ronaldinho image desktop"
             width={1290}
             height={798}
@@ -360,7 +381,7 @@ export default function RonaldinhoPage() {
             />
           </div>
           <Image
-            src="/img/content3_mobile.png"
+            src="/img/content3_mobile.webp"
             alt="Context3 Text3"
             width={430}
             height={540}
@@ -372,34 +393,34 @@ export default function RonaldinhoPage() {
 
       {/* Honors Section */}
       <section className="relative mx-auto w-full md:min-h-0 flex flex-col items-center justify-center ">
-      <div className="md:mt-10">
-        <Image
-          src="/img/achivement_title.png"
-          alt="Achievement Title"
-          width={1100} 
-          height={67} 
-          draggable = "false"
-          className="hidden md:block w-full mb-14" 
-        />
-        <div className="relative">
+        <div className="md:mt-10">
           <Image
-            src="/img/achivement.png"
-            alt="Ronaldinho Honors Desktop"
-            width={1080} 
-            height={304} 
+            src="/img/achivement_title.png"
+            alt="Achievement Title"
+            width={1100} 
+            height={67} 
             draggable = "false"
-            className="hidden md:block mx-auto max-w-full h-auto rounded-lg"
+            className="hidden md:block w-full mb-14" 
           />
-          <Image
-            src="/img/achivement_mobile.png"
-            alt="Ronaldinho Honors (mobile)"
-            width={320} 
-            height={160} 
-            draggable = "false"
-            className="block md:hidden mx-auto max-w-full h-auto rounded-lg mt-6"
-          />
+          <div className="relative">
+            <Image
+              src="/img/achivement.png"
+              alt="Ronaldinho Honors Desktop"
+              width={1080} 
+              height={304} 
+              draggable = "false"
+              className="hidden md:block mx-auto max-w-auto h-auto rounded-lg"
+            />
+            <Image
+              src="/img/achivement_mobile.png"
+              alt="Ronaldinho Honors (mobile)"
+              width={320} 
+              height={160} 
+              draggable = "false"
+              className="block md:hidden mx-auto max-w-full h-auto rounded-lg mt-6"
+            />
+          </div>
         </div>
-      </div>
       </section>
 
       {/* Trophy Section */}
@@ -415,7 +436,7 @@ export default function RonaldinhoPage() {
       <section>
         <div className="w-full overflow-hidden mb-4">
           <Image
-            src="/img/midbanner.png"
+            src="/img/midbanner_1.png"
             alt="MB66 mid banner"
             width={1920}
             height={90}
@@ -433,8 +454,8 @@ export default function RonaldinhoPage() {
       </section>
 
       {/* Footer */}
-      <section className="md:pt-1 ">
-        <div className="overflow-hidden shadow-xl w-full mt-6 md:mt-12">
+      <section className="md:pt-1  mt-6 md:mt-12">
+        <div className="overflow-hidden shadow-xl w-full">
           <Image
             src="/img/footer.jpg"
             alt="Footer Logo"
@@ -444,6 +465,7 @@ export default function RonaldinhoPage() {
             className="hidden md:block w-full h-auto object-cover left-0"
             priority
           />
+          
           <Image
             src="/img/footer_mobile.png"
             alt="Footer Logo (mobile)"

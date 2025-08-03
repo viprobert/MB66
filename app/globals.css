@@ -84,9 +84,6 @@ body {
     width: 100%;
     max-width: 250px;
     white-space: normal;
-    /* background-image: linear-gradient(to bottom, rgba(140, 140, 140, 0.692), #6b6b6b);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 2px 2px rgba(0,0,0,0.3);
-    border: 1px solid #dbb842; */
 }
 
 .slick-slide > div {
@@ -97,8 +94,25 @@ body {
     margin: 0 -10px !important;
 }
 
-@media (max-width: 768px) {
-    .slick-slide > div {
+/* middle name */
+.mid-name{
+  height: 74vh;
+}
+
+@media (min-width: 576px) {
+  .mid-name{
+      height: 38vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .mid-name{
+      height: 43vh;
+    }
+}
+
+@media (max-width : 768px){
+  .slick-slide > div {
         margin: 0 5px !important; 
     }
     .slick-list {
@@ -129,20 +143,61 @@ body {
     }
 }
 
-/* Keyframes สำหรับการเคลื่อนที่ขึ้น-ลงอย่างต่อเนื่อง */
-@keyframes floatUpDown {
-  0% {
-    transform: translateY(20px); /* ตำแหน่งเริ่มต้น */
-  }
-  50% {
-    transform: translateY(-10px); /* เลื่อนขึ้น -20px (ปรับได้) */
-  }
-  100% {
-    transform: translateY(20px); /* กลับสู่ตำแหน่งเดิม */
+@media (min-width : 820px){
+  .mid-name{
+    height: 36vh;
   }
 }
 
-/* คลาส Tailwind ที่จะใช้เรียก animation */
-.animate-float-up-down {
-  animation: floatUpDown 2s ease-in-out infinite; /* 4 วินาที, smooth, ทำซ้ำไม่รู้จบ */
+@media (min-width : 912px){
+  .mid-name{
+    height: 32vh;
+  }
 }
+
+@media (min-width: 992px) {
+  .mid-name{
+      height: 70vh;
+    }
+}
+
+@media (min-width: 1024px) {
+  .mid-name{
+      height: 70vh;
+    }
+}
+
+@media (min-width: 1200px) {
+   .mid-name{
+      height: 70vh;
+    }
+}
+@media (min-width: 1274){
+  .mid-name{
+    height: 70vh;
+  }
+}
+@media (min-width: 1300px){
+  .mid-name{
+    height: 74vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  .mid-name{
+    height: 74vh;
+  }
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(20px); 
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(20px); 
+  }
+}
+

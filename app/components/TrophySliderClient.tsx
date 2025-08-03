@@ -34,18 +34,9 @@ const PrevArrow = (props: CustomArrowProps) => {
 
 const trophies = [
   { id: 1, img: '/img/cup0011.png', name: 'THE BEST FIFA <br/>MEN’S PLAYER' },
-  { id: 2,  img: '/img/cup002.png', name: 'COPA AMÉRICA' },
-  { id: 3,  img: '/img/cup001.png', name: 'FIFA WORLDCUP' },
-  { id: 4,  img: '/img/cup003.png', name: 'CONFEDERATIONS CUP' },
-  // { id: 4,  img: '/img/cup004.png', name: 'European Ballon <br/> D’OR' },
-  // { id: 5,  img: '/img/cup005.png', name: 'ITALIAN SERIE A CUP' },
-  // { id: 6,  img: '/img/cup006.png', name: 'RECOPA <br/>SUDAMERICANA' },
-  // { id: 7,  img: '/img/cup007.png', name: 'COPA <br/>LIBERTADORES' },
-  // { id: 8,  img: '/img/cup008.png', name: 'UEFA BEST PLAYER <br/>IN EUROPE' },
-  // { id: 9,  img: '/img/cup009.png', name: 'SPANISH SUPERCUP' },
-  // { id: 10, img: '/img/cup0010.png', name: 'SPANISH CHAMPION' },  
-  // { id: 12, img: '/img/cup0012.png', name: 'U17 WORLDCUP' },
-  // { id: 13, img: '/img/cup0013.png', name: 'UEFA CHAMPIONS <br/>LEAGUE' },
+  { id: 2, img: '/img/cup002.png', name: 'COPA AMÉRICA' },
+  { id: 3, img: '/img/cup001.png', name: 'FIFA WORLDCUP' },
+  { id: 4, img: '/img/cup003.png', name: 'CONFEDERATIONS CUP' },
 ];
 
 export default function TrophySliderClient() {
