@@ -11,14 +11,14 @@ export default function RonaldinhoPage() {
       <section>
         <div className="overflow-hidden shadow-xl">
           {/* Desktop version */}
-          <div className="hidden md:flex items-center justify-center bg-white md:h-[111px] mt:5 mx-auto overflow-hidden">
+          <div className="hidden md:flex items-center justify-center bg-white md:w-[750px] md:h-[111px] mt:5 mx-auto overflow-hidden">
           {/* Desktop version of the combined header image */}
             <Image
               src="/img/logo.png"
               alt="MB66 Logo"
               width={219} 
               height={70} 
-              className="h-auto object-contain  w-auto h-auto"
+              className="object-containl h-auto"
               draggable = "false"
               priority
             />
@@ -27,7 +27,7 @@ export default function RonaldinhoPage() {
               alt="Middle Icons"
               width={63}
               height={40}
-              className="mx-5 h-auto object-contain w-auto h-auto"
+              className="mx-5 object-contain h-auto"
               draggable = "false"
               priority
             />
@@ -36,7 +36,7 @@ export default function RonaldinhoPage() {
               alt="Ronaldinho Logo"
               width={247} 
               height={75} 
-              className="h-auto object-contain  w-auto h-auto"
+              className="object-contain h-auto"
               draggable = "false" 
               priority
             />
