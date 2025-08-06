@@ -100,7 +100,7 @@ export default function RonaldinhoPage() {
       {/* Back Button */}
       <section className="container mx-auto px-4 md:py-6 py-2">
         <div className="flex justify-center mt-4">
-          <Link href="https://www.23528828.com/" replace>
+          <Link href="https://www.23528828.com/" target="_blank">
             <Image
               src="/img/button_1.png"
               alt="หน้าหลัก MB66"
