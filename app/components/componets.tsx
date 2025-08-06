@@ -100,7 +100,7 @@ export default function RonaldinhoPage() {
       {/* Back Button */}
       <section className="container mx-auto px-4 md:py-6 py-2">
         <div className="flex justify-center mt-4">
-          <Link href="/" replace>
+          <Link href="https://www.23528828.com/" replace>
             <Image
               src="/img/button_1.png"
               alt="หน้าหลัก MB66"
@@ -163,15 +163,6 @@ export default function RonaldinhoPage() {
                     draggable = "false"
                     className="self-start mt-10"
                   />
-                  {/* <span className="text-[19px] font-semibold">
-                    RONALDINHO ตำนานลูกหนังระดับโลก จับมือเป็นแบรนด์แอมบาสเดอร์ของ MB66 อย่างเป็นทางการ ความร่วมมือครั้งสำคัญนี้กำลังกลายเป็นกระแสที่ได้รับความสนใจและถูกพูดถึงอย่างล้นหลามในโลกออนไลน์
-                  </span>
-                  <p className="text-[19px] font-semibold pt-4">
-                    สัญญาความร่วมมือระหว่างแพลตฟอร์มบันเทิงชั้นนำของเอเชียอย่าง MB66 กับซูเปอร์สตาร์ลูกหนัง RONALDINHO จะต้องสร้างความประทับใจอย่างมากแน่นอน
-                  </p>
-                  <p className="text-[19px] font-semibold pt-4">นี่ถือเป็นอีกก้าวสำคัญที่แสดงให้เห็นถึงมาตรฐานระดับสูงของ MB66 </p>
-                  <p className="text-[19px] font-semibold ">ในตลาดการเดิมพันออนไลน์</p>
-                  <p className="text-[19px] font-semibold pt-6">ด้วยชื่อเสียงและอิทธิพลของนักเตะคนนี้ MB66 ได้รับการยอมรับอย่างกว้างขวางจากเหล่าคนดังและผู้เชี่ยวชาญที่มีบทบาทในวงการ สิ่งนี้สะท้อนถึงความมุ่งมั่นของแบรนด์ในการลงทุนอย่างจริงจัง พร้อมให้คำมั่นว่าจะมอบประสบการณ์ที่ดีที่สุดให้กับสมาชิกทุกคน</p> */}
                 </div>
                 <div className="flex justify-center items-center w-full h-[150px] px-4">
                   <Image
@@ -276,9 +267,6 @@ export default function RonaldinhoPage() {
                   draggable = "false"
                   className="w-full h-auto object-contain"
                 />
-                {/* <p className="text-[19px] font-semibold pt-4 leading-normal text-black">การที่ RONALDINHO เข้าร่วมเป็นแบรนด์แอมบาสเดอร์ให้กับ MB66 ถือเป็นหนึ่งในเหตุการณ์ที่น่าจับตามองมากที่สุดในช่วงที่ผ่านมาสัญญาความร่วมมือระหว่างบริษัทบันเทิงชั้นนำแห่งเอเชียอย่าง MB66 กับซูเปอร์สตาร์ลูกหนัง RONALDINHO รับรองได้ว่าจะนำมาซึ่งความน่าประทับใจมากมาย</p>
-                <p className="text-[19px] font-semibold pt-4 leading-normal text-black">นี่ถือเป็นอีกหนึ่งก้าวสำคัญที่แสดงถึงความมุ่งมั่นและระดับชั้นของแบรนด์ MB66 ในตลาดการเดิมพันออนไลน์</p>
-                <p className="text-[19px] font-semibold pt-4 leading-normal text-black">ด้วยชื่อเสียงและความน่าเชื่อถือในระดับโลกของ RONALDINHO การร่วมงานครั้งนี้ได้รับการยอมรับอย่างสูงจากทั้งคนดังและผู้เชี่ยวชาญในวงการซึ่งตอกย้ำถึงการลงทุนอย่างจริงจังของ MB66 ในการมอบประสบการณ์ที่ดีที่สุดให้แก่สมาชิกทุกคน</p> */}
               </div>
 
               {/* Overlapping bottom image for desktop */}
@@ -354,12 +342,6 @@ export default function RonaldinhoPage() {
             draggable = "false"
             className="w-full h-auto hidden md:block md:mb-6"
           />
-          {/* <div className="w-full hidden md:block">
-            <h2 className="text-[28px] font-semibold mt-6 text-black">RONALDO DE ASSIS MOREIRA</h2>
-            <p className="text-[18px] font-semibold mt-4 text-black">(เกิดเมื่อวันที่ 21 มีนาคม 1980 ที่เมืองปอร์โตอาเลเกร ประเทศบราซิล) มักเป็นที่รู้จักในชื่อ RONALDINHO GAÚCHO หรือเรียกสั้น ๆ ว่า RONALDINHO</p>
-            <p className="text-[18px] font-semibold mt-1 text-black">(ออกเสียงในภาษาโปรตุเกสว่า [ʁonawˈdʒĩɲu]) เป็นอดีตนักฟุตบอลอาชีพชาวบราซิล โดยเล่นในตำแหน่งกองกลางตัวรุกและปีก</p>
-            <p className="text-[18px] font-semibold mt-4 mb-6 leading-relaxed text-black">เขาไม่เพียงแค่เป็นนักเตะฝีเท้ายอดเยี่ยมระดับโลกเท่านั้น แต่ยังเป็น ตำนานลูกหนังบราซิล ที่มีชื่อเสียงจากลีลาการเลี้ยงบอลอันน่าตื่นตาตื่นใจ RONALDINHO มีฐานแฟนคลับจำนวนมากทั่วโลก นอกจากนี้ เขายังเป็นคนที่มีบุคลิก ขี้เล่น เป็นมิตร และเข้าถึงง่าย ทำให้ทุกครั้งที่ได้พบแฟน ๆ เขามักจะสร้างช่วงเวลาแห่งความประทับใจเสมอ</p>
-          </div> */}
           <Image
             src="/img/content3.webp"
             alt="Ronaldinho image desktop"
