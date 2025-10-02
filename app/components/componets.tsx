@@ -436,7 +436,7 @@ export default function RonaldinhoPage() {
       </section>
 
       {/* Footer */}
-      <section className="md:pt-1  mt-6 md:mt-12">
+      {/* <section className="md:pt-1  mt-6 md:mt-12">
         <div className="overflow-hidden shadow-xl w-full">
           <Image
             src="/img/footer.jpg"
@@ -457,6 +457,80 @@ export default function RonaldinhoPage() {
             className="block md:hidden w-full h-auto object-cover absolute"
             priority
           />
+        </div>
+      </section> */}
+      {/* Footer */}
+      <section className="md:pt2">
+        {/* Desktop version */}
+        <div className="md:bg-white flex flex-row justify-center items-center flex-wrap gap-6 p-2 text-center md:pb-6 md:pt-12">
+          <a 
+            href="https://okvipthai1.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Image 
+              src="/img/all_partner.png"
+              alt="All Partner"
+              width={900}
+              height={400}
+              draggable="false"
+              className="hidden md:block h-auto cursor-pointer"
+            />
+          </a>
+          <a 
+            href="https://rdmb66.pages.dev/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Image 
+              src="/img/ambassador.png"
+              alt="Ambassador"
+              width={250}
+              height={180}
+              draggable="false"
+              className="hidden md:block h-auto cursor-pointer"
+            />
+          </a>
+          <Image 
+          src="/img/footer_logos.png"
+          alt="Footer logos"
+          width={1160}
+          height={400}
+          draggable="false"
+          className="hidden md:block h-auto"
+          />
+        </div>
+
+        {/* Mobile version */}
+        <div className="block bg-white p-2 pb-4 pt-6  md:hidden">
+          <a 
+            href="https://rdmb66.pages.dev/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/img/footer_1.png"
+              alt="Ambassador mobile"
+              width={430}
+              height={40}
+              draggable= "false"
+              className="w-full"
+            />
+          </a>
+          <a 
+            href="https://okvipthai1.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/img/footer_2.png"
+              alt="All Partner mobile"
+              width={430}
+              height={250}
+              draggable= "false"
+              className="w-full"
+            />
+          </a>
         </div>
       </section>
     </div>
